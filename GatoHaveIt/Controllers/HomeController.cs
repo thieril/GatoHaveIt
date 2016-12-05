@@ -15,14 +15,14 @@ namespace GatoHaveIt.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Gato Have It, Your one stop shop for cat themed merchandise!";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "If you need assistance, please contact our Customer Service Department. ";
 
             return View();
         }
